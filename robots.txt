@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /Images/
+Disallow: /js/
+Disallow: /css/
+
+# Povolení pro hlavní stránky
+Allow: /index.html
+Allow: /ocenit.html
+Allow: /OP.html
+Allow: /cookies.html
+
+# Sitemap
+Sitemap: https://ocenit.online/sitemap.xml
