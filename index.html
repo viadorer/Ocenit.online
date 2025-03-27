@@ -2,6 +2,16 @@
 <html lang="cs">
 <head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PCH8ZT64T1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PCH8ZT64T1');
+</script>
+
 <!-- DataLayer inicializace -->
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -19,6 +29,8 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5BJX68GM');</script>
     <!-- End Google Tag Manager -->
+
+    <meta name="google-site-verification" content="HTPZcv_nleB0-DsXPznNMgPP-rMrBOMApxP3rAfn0Jw">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -252,7 +264,7 @@
                         <div class="space-y-4 mb-10">
                             <div class="flex items-center gap-3">
                                 <div class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
-                                    <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                 </div>
@@ -260,7 +272,7 @@
                             </div>
                             <div class="flex items-center gap-3">
                                 <div class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
-                                    <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                 </div>
@@ -268,7 +280,7 @@
                             </div>
                             <div class="flex items-center gap-3">
                                 <div class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
-                                    <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                 </div>
@@ -669,7 +681,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const answer = button.nextElementSibling;
             const icon = button.querySelector('.faq-icon');
             
-            // Zavřít všechny ostatní odpovědi
+            // Zavřít všechna ostatní odpovědi
             document.querySelectorAll('.faq-answer').forEach(item => {
                 if (item !== answer) {
                     item.classList.add('hidden');
