@@ -41,8 +41,6 @@
             }
         }
     </script>
-    <script>var cemap_id = '22642/235f94312cb0beea2fe91791583a1aa735ee02fc';</script>
-    <script src="https://cemap.cz/beta2/inc/js/widget.js" async></script>
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -115,10 +113,24 @@
     <section class="relative -mt-40 pb-20 bg-gray-50">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-white rounded-3xl shadow-xl p-8 relative z-20">
-                <div class="cemap-widget" data-options="id=101"></div>
+                <!-- Kontejner pro formulář -->
+                <div id="realvisor-form" class="mx-auto" style="max-width: 600px;"></div>
             </div>
         </div>
     </section>
+
+    <!-- Widget script -->
+    <script src="https://realvisor-com-widget.vercel.app/widget.iife.js"></script>
+    <script>
+      RealvisorWidget.createValuoForm(document.getElementById('realvisor-form'), {
+        apiUrl: 'https://api-production-88cf.up.railway.app/api/v1',
+        formCode: 'valuo-main',
+        primaryColor: '#002FFF',
+        borderRadius: '12px',
+        maxWidth: '600px',
+        shadow: 'lg'
+      });
+    </script>
 
 <!-- Footer -->
 <footer class="bg-gray-900 text-white pt-16 pb-8">
