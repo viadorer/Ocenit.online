@@ -111,10 +111,10 @@
 
     <!-- Formulář sekce -->
     <section class="relative -mt-40 pb-20 bg-gray-50">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-white rounded-3xl shadow-xl p-4 sm:p-8 relative z-20">
                 <!-- Kontejner pro formulář -->
-                <div id="realvisor-form" class="mx-auto" style="max-width: 600px;"></div>
+                <div id="realvisor-form" class="mx-auto"></div>
             </div>
         </div>
     </section>
@@ -124,13 +124,10 @@
     <script>
       RealvisorWidget.createValuoForm(document.getElementById('realvisor-form'), {
         apiUrl: 'https://api-production-88cf.up.railway.app/api/v1',
-        formCode: 'valuo-minimal',
+        formCode: 'valuo-main',
         primaryColor: '#002FFF',
         borderRadius: '12px',
-        maxWidth: '600px',
-        shadow: 'none',
-        hideHeader: true,
-        hideStepper: true
+        shadow: 'none'
       });
     </script>
 
