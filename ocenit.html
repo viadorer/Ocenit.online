@@ -122,41 +122,6 @@
     <!-- Widget script -->
     <script src="https://realvisor-com-widget.vercel.app/widget.iife.js"></script>
     <script>
-      // Přepsat konfiguraci přímo v kódu
-      window.__mockFormConfig = {
-        formCode: 'valuo-main',
-        formName: 'Odhad nemovitosti',
-        config: {
-          variant: 'minimal',
-          propertyTypes: ['flat', 'house', 'land'],
-          kindTypes: ['sale', 'lease'],
-          fields: {
-            kind: { visible: true, required: true },
-            propertyType: { visible: true },
-            address: { visible: true, required: true },
-            floorArea: { visible: true, required: true },
-            lotArea: { visible: true, required: true },
-            rating: { visible: true, required: true },
-            localType: { visible: true },
-            ownership: { visible: true, required: true },
-            construction: { visible: true },
-            houseType: { visible: true },
-            landType: { visible: true, required: true }
-          },
-          theme: {
-            primaryColor: '#002FFF',
-            borderRadius: '12px',
-            maxWidth: '800px',
-            shadow: 'none'
-          },
-          labels: {
-            title: '',
-            subtitle: '',
-            submitButton: 'Zjistit cenu'
-          }
-        }
-      };
-      
       RealvisorWidget.createValuoForm(document.getElementById('realvisor-form'), {
         apiUrl: 'https://api-production-88cf.up.railway.app/api/v1',
         formCode: 'valuo-main',
