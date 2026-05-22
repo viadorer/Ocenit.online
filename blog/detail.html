@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Meta tags will be dynamically updated by JavaScript -->
-    <title>Načítání článku... - Blog Odhad.online</title>
-    <meta name="description" content="Načítání článku z blogu Odhad.online">
+    <title>Načítání článku... - Blog Ocenit.online</title>
+    <meta name="description" content="Načítání článku z blogu Ocenit.online">
+    <meta name="robots" content="noindex, follow">
+
+    <!-- Redirect na novou statickou URL (GitHub Pages neumí .htaccess 301) -->
+    <script>
+    (function() {
+        var params = new URLSearchParams(window.location.search);
+        var slug = params.get('post') || params.get('id');
+        if (slug && /^[a-z0-9-]+$/i.test(slug)) {
+            window.location.replace('/blog/' + slug + '.html');
+        } else {
+            window.location.replace('/blog/');
+        }
+    })();
+    </script>
 </head>
 <body class="min-h-screen bg-gray-50" x-data="blogDetail()" x-init="init()">
     <!-- Header placeholder -->

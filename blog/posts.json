@@ -1,6 +1,19 @@
 {
   "posts": [
     {
+      "id": "tipy-pro-uspesny-pronajem",
+      "title": "10 tipů pro úspěšný pronájem nemovitosti",
+      "excerpt": "Praktický průvodce úspěšným pronájmem: od přípravy nemovitosti přes stanovení ceny a výběr nájemníka až po správu pronájmu. 10 osvědčených tipů pro maximální výnos.",
+      "category": "tips",
+      "categoryName": "Tipy & Triky",
+      "image": "/images/blog/clanek-pronajem.png",
+      "imageAlt": "Tipy pro úspěšný pronájem nemovitosti",
+      "date": "2025-09-10",
+      "dateFormatted": "10. září 2025",
+      "readTime": 9,
+      "keywords": "pronájem nemovitosti, nájemník, cena nájmu, pronájem bytu, pronájem domu, investice do nemovitosti"
+    },
+    {
       "id": "fotografie-a-jejich-vliv-na-cenu-proc-se-kupujici-rozhoduje-jeste-pred-prohlidkou",
       "title": "Fotografie a jejich vliv na cenu: Proč se kupující rozhoduje ještě před prohlídkou",
       "excerpt": "Profesionální fotografie zásadně ovlivňují první dojem, počet poptávek i konečnou cenu. Zjistěte, jak fotkami zvýšit atraktivitu a urychlit prodej.",
