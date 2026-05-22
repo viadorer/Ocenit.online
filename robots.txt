@@ -1,14 +1,23 @@
 User-agent: *
 Allow: /
-Disallow: /Images/
-Disallow: /js/
-Disallow: /css/
 
 # Povolení pro hlavní stránky
 Allow: /index.html
 Allow: /ocenit.html
+Allow: /metodika.html
 Allow: /OP.html
+Allow: /oou.html
 Allow: /cookies.html
+Allow: /blog/
+
+# Obrázky – povolit pro Google Images (boost SEO)
+Allow: /Images/
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
 
 # Sitemap
-Sitemap: https://ocenit.online/sitemap.xml
+Sitemap: https://www.ocenit.online/sitemap.xml
