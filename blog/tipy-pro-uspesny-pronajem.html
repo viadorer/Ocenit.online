@@ -109,6 +109,12 @@
 
             <div class="bg-white rounded-xl shadow-sm p-6 sm:p-10">
                 <div class="prose prose-lg max-w-none">
+<!-- Text článku spravuje PTF (administrace ptf.cz) a doplní ho
+     js/ptf-blog.js. Statická verze uvnitř zůstává jako záloha pro
+     případ, že by se načtení nepovedlo — prázdná stránka by byla
+     horší než chvilku stará verze. Adresa ani vzhled se nemění,
+     z PTF se bere jen text. -->
+<div id="clanek-obsah" data-slug="tipy-pro-uspesny-pronajem">
     <p class="lead text-xl text-gray-700 mb-8">
         Pronájem nemovitosti může být lukrativní investicí, ale úspěch závisí na správném přístupu. Zde je 10 osvědčených tipů, které vám pomohou najít spolehlivé nájemníky a maximalizovat výnos z vaší nemovitosti.
     </p>
@@ -236,6 +242,7 @@
         Naši experti vám rádi poradí.
     </p>
 </div>
+</div>
 
             </div>
 
@@ -282,5 +289,10 @@
             </div>
         </div>
     </footer>
+    <script src="/js/ptf-blog.js"></script>
+    <script>
+        var _c = document.getElementById('clanek-obsah');
+        if (_c) window.PTF_BLOG.naplnClanek(_c.dataset.slug, _c);
+    </script>
 </body>
 </html>

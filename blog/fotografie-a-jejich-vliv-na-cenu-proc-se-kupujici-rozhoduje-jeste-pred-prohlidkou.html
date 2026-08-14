@@ -109,6 +109,12 @@
 
             <div class="bg-white rounded-xl shadow-sm p-6 sm:p-10">
                 <div class="prose prose-lg max-w-none">
+<!-- Text článku spravuje PTF (administrace ptf.cz) a doplní ho
+     js/ptf-blog.js. Statická verze uvnitř zůstává jako záloha pro
+     případ, že by se načtení nepovedlo — prázdná stránka by byla
+     horší než chvilku stará verze. Adresa ani vzhled se nemění,
+     z PTF se bere jen text. -->
+<div id="clanek-obsah" data-slug="fotografie-a-jejich-vliv-na-cenu-proc-se-kupujici-rozhoduje-jeste-pred-prohlidkou">
     <p class="lead text-xl text-gray-700 mb-8">
         Profesionální fotografie zásadně ovlivňují první dojem, počet poptávek i konečnou cenu. Ještě před tím, než kupující vstoupí do nemovitosti, podvědomě vyhodnotí kvalitu nabídky podle fotek. Správná příprava a prezentace může zvýšit zájem i finální prodejní cenu.
     </p>
@@ -227,6 +233,7 @@
         Máte otázky nebo potřebujete poradit? <a href="/index.html#kontakt" class="text-blue-600 hover:underline">Kontaktujte nás</a> – rádi vám pomůžeme zvolit ideální postup pro vaši nemovitost.
     </p>
 </div>
+</div>
 
             </div>
 
@@ -273,5 +280,10 @@
             </div>
         </div>
     </footer>
+    <script src="/js/ptf-blog.js"></script>
+    <script>
+        var _c = document.getElementById('clanek-obsah');
+        if (_c) window.PTF_BLOG.naplnClanek(_c.dataset.slug, _c);
+    </script>
 </body>
 </html>
