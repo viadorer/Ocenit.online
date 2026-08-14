@@ -1,0 +1,15 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/blog/posts/:slug.html",
+      "destination": "/blog/:slug.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/:slug",
+      "destination": "/blog/:slug.html",
+      "permanent": true
+    }
+  ]
+}
