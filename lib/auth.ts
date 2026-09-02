@@ -13,6 +13,7 @@
  */
 import { SignJWT, jwtVerify } from 'jose';
 import { cookies } from 'next/headers';
+import { redirect } from 'next/navigation';
 import { sql } from './db';
 
 const COOKIE_NAME = 'ocenit_session';
@@ -86,10 +87,7 @@ export async function getSession(): Promise<SessionPayload | null> {
 /** Pro server components / API — vyhodí redirect na login, když není přihlášen. */
 export async function requireSession(): Promise<SessionPayload> {
   const s = await getSession();
-  if (!s) {
-    const { redirect } = await import('next/navigation');
-    redirect('/moje/prihlaseni');
-  }
+  if (!s) redirect('/moje/prihlaseni'); // `redirect` má návratový typ `never`, TS to pochopí
   return s;
 }
 
