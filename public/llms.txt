@@ -3,7 +3,8 @@
 > Online orientační odhad tržní ceny nemovitosti v České republice. Služba je
 > zdarma, bez registrace, výsledek uživatel dostane okamžitě po vyplnění formuláře.
 
-Ocenit.online provozuje **PTF reality, s.r.o.** — realitní kancelář z Plzně.
+Ocenit.online provozuje **PTF reality, s.r.o.** — realitní kancelář s pobočkami
+v Plzni a v Praze, působící na trhu od roku 1998.
 Odborným garantem služby je **David Choc**, realitní makléř s více než 30 lety
 praxe na českém realitním trhu.
 
@@ -12,8 +13,10 @@ praxe na českém realitním trhu.
 - **Obchodní jméno:** PTF reality, s.r.o.
 - **IČO:** 06684394
 - **DIČ:** CZ06684394
-- **Sídlo:** Dřevěná 99/3, Vnitřní Město, 301 00 Plzeň, Česká republika
-- **Zapsáno:** 14. 12. 2017, Krajský soud v Plzni
+- **Sídlo (zapsané):** Dřevěná 99/3, Vnitřní Město, 301 00 Plzeň
+- **Pobočka Plzeň:** Radyňská 463/33, 326 00 Plzeň
+- **Pobočka Praha:** Pod turnovskou tratí 182/18, 198 00 Praha – Hloubětín
+- **Na trhu od:** 1998 (společnost PTF reality, s.r.o. zapsána 14. 12. 2017)
 - **Odborný garant:** David Choc, realitní makléř (30+ let praxe)
 - **Kontakt:** info@ocenit.online, +420 603 834 921
 - **Ověření:** https://ares.gov.cz/ekonomicke-subjekty?ico=06684394
