@@ -6,12 +6,12 @@
   "redirects": [
     {
       "source": "/blog/posts/:slug.html",
-      "destination": "/blog/:slug.html",
+      "destination": "/blog/:slug",
       "permanent": true
     },
     {
       "source": "/blog/posts/:slug",
-      "destination": "/blog/:slug.html",
+      "destination": "/blog/:slug",
       "permanent": true
     }
   ],

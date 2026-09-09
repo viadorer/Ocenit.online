@@ -1,23 +1,130 @@
+# ============================================================
+# ocenit.online — robots.txt
+# Provozovatel: PTF reality s.r.o. (IČO 06684394)
+# ============================================================
+
+# --- Výchozí pravidlo pro všechny roboty ---
 User-agent: *
 Allow: /
+Disallow: /moje/
+Disallow: /api/
+Disallow: /blog/posts/
 
-# Povolení pro hlavní stránky
-Allow: /index.html
-Allow: /ocenit.html
-Allow: /metodika.html
-Allow: /OP.html
-Allow: /oou.html
-Allow: /cookies.html
-Allow: /blog/
+# ============================================================
+# ČESKÉ A GLOBÁLNÍ VYHLEDÁVAČE
+# ============================================================
 
-# Obrázky – povolit pro Google Images (boost SEO)
-Allow: /Images/
-Allow: /images/
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.png$
-Allow: /*.webp$
-Allow: /*.svg$
+User-agent: Googlebot
+Allow: /
 
-# Sitemap
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: SeznamBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================================
+# AI VYHLEDÁVÁNÍ A ASISTENTI — POVOLENO
+# Roboti, kteří posílají návštěvnost nebo citují zdroj.
+# ============================================================
+
+# OpenAI — ChatGPT Search a prohlížení na vyžádání uživatele
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Anthropic — Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google AI Overviews / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Copilot
+User-agent: Bingbot-Extended
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# ============================================================
+# SCRAPERY BEZ PROTIHODNOTY — ZAKÁZÁNO
+# Sklízejí obsah, ale neposílají návštěvnost ani necitují.
+# ============================================================
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# ============================================================
 Sitemap: https://www.ocenit.online/sitemap.xml

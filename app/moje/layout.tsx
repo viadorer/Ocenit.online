@@ -1,6 +1,12 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { getSession } from '@/lib/auth';
+import type { Metadata } from 'next';
+
+// Privátní sekce — nesmí se dostat do indexu vyhledávačů ani do AI korpusů.
+export const metadata: Metadata = {
+  robots: { index: false, follow: false, nocache: true },
+};
 
 export default async function MojeLayout({ children }: { children: ReactNode }) {
   const session = await getSession();
