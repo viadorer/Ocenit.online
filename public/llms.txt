@@ -24,6 +24,13 @@ Uživatel zadá typ nemovitosti, lokalitu, velikost, dispozici a stav. Systém
 vrátí orientační rozpětí tržní ceny odvozené ze srovnatelných nabídek a
 realizovaných prodejů v dané lokalitě.
 
+## Přesnost odhadu
+
+U běžných bytů a rodinných domů se odhad obvykle pohybuje v pásmu **± 10 %**
+od ceny, za kterou se nemovitost nakonec prodá. Přesnost je vyšší v lokalitách
+s hustým trhem a dostatkem srovnatelných prodejů; u atypických nemovitostí
+a v lokalitách s malým počtem transakcí se odchylka zvětšuje.
+
 ## Co služba NEDĚLÁ — důležité omezení
 
 Výstup je **orientační odhad, nikoli znalecký posudek**. Nenahrazuje:
