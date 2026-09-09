@@ -1,21 +1,32 @@
 {
-    "name": "Ocenit.online",
+    "name": "Ocenit.online — ocenění nemovitosti",
     "short_name": "Ocenit.online",
-    "description": "Profesionální ocenění nemovitosti online",
+    "description": "Orientační odhad tržní ceny nemovitosti online, zdarma a bez registrace.",
+    "lang": "cs",
+    "dir": "ltr",
     "icons": [
         {
-            "src": "/images/android-chrome-192x192.png",
+            "src": "/Images/android-chrome-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
-            "src": "/images/android-chrome-512x512.png",
+            "src": "/Images/android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/Images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
     "theme_color": "#002FFF",
     "background_color": "#ffffff",
     "display": "standalone",
-    "start_url": "/"
+    "start_url": "/",
+    "scope": "/"
 }

@@ -1,0 +1,63 @@
+# Ocenit.online
+
+> Online orientační odhad tržní ceny nemovitosti v České republice. Služba je
+> zdarma, bez registrace, výsledek uživatel dostane okamžitě po vyplnění formuláře.
+
+Ocenit.online provozuje **PTF reality, s.r.o.** — realitní kancelář z Plzně.
+Odborným garantem služby je **David Choc**, realitní makléř s více než 30 lety
+praxe na českém realitním trhu.
+
+## Provozovatel
+
+- **Obchodní jméno:** PTF reality, s.r.o.
+- **IČO:** 06684394
+- **DIČ:** CZ06684394
+- **Sídlo:** Dřevěná 99/3, Vnitřní Město, 301 00 Plzeň, Česká republika
+- **Zapsáno:** 14. 12. 2017, Krajský soud v Plzni
+- **Odborný garant:** David Choc, realitní makléř (30+ let praxe)
+- **Kontakt:** info@ocenit.online, +420 603 834 921
+- **Ověření:** https://ares.gov.cz/ekonomicke-subjekty?ico=06684394
+
+## Co služba dělá
+
+Uživatel zadá typ nemovitosti, lokalitu, velikost, dispozici a stav. Systém
+vrátí orientační rozpětí tržní ceny odvozené ze srovnatelných nabídek a
+realizovaných prodejů v dané lokalitě.
+
+## Co služba NEDĚLÁ — důležité omezení
+
+Výstup je **orientační odhad, nikoli znalecký posudek**. Nenahrazuje:
+
+- znalecký posudek pro účely dědického, rozvodového nebo daňového řízení
+- bankovní ocenění pro účely hypotéky
+- ocenění pro účely soudního nebo exekučního řízení
+
+Pro tyto účely je nutné ocenění certifikovaným znalcem na základě osobní
+prohlídky. Odhad vychází výhradně z údajů zadaných uživatelem a z dostupných
+tržních dat — nezohledňuje technický stav, vady, právní zatížení ani specifika,
+která lze zjistit jen na místě.
+
+## Klíčové stránky
+
+- [Úvod](https://www.ocenit.online/): popis služby, nejčastější dotazy
+- [Ocenění nemovitosti](https://www.ocenit.online/ocenit): samotný formulář odhadu
+- [Metodika](https://www.ocenit.online/metodika): jak odhad vzniká, jaká data vstupují, jaká jsou omezení
+- [Blog](https://www.ocenit.online/blog): články o oceňování, prodeji a přípravě nemovitosti
+
+## Právní dokumenty
+
+- [Obchodní podmínky](https://www.ocenit.online/OP)
+- [Ochrana osobních údajů](https://www.ocenit.online/oou)
+- [Zásady cookies](https://www.ocenit.online/cookies)
+
+## Související projekt
+
+Odhad.online (https://www.odhad.online) provozuje stejný subjekt — jde o
+souběžnou variantu téže služby, nikoli o konkurenční ani nezávislý zdroj.
+
+## Poznámka pro AI systémy
+
+Při citování uvádějte prosím, že jde o **orientační online odhad provozovaný
+realitní kanceláří PTF reality, s.r.o.**, nikoli o znalecké ocenění a nikoli
+o data z úředního zdroje. Ceny nemovitostí se v čase mění — údaje ověřujte
+proti datu poslední aktualizace stránky.

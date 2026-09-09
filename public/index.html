@@ -34,7 +34,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Profesionální ocenění nemovitosti online ✓ Spolehlivý odhad tržní ceny vaší nemovitosti ZDARMA ✓ Výsledek do 5 minut ✓ Bez závazků a registrace">
+    <meta name="description" content="Profesionální ocenění nemovitosti online ✓ Spolehlivý odhad tržní ceny vaší nemovitosti ZDARMA ✓ Výsledek do 2 minut ✓ Bez závazků a registrace">
     <meta name="keywords" content="ocenění nemovitosti, odhad ceny nemovitosti, online ocenění, tržní cena nemovitosti, odhad bytu, odhad domu, realitní odhad">
     <meta name="author" content="Ocenit.online">
     <meta name="robots" content="index, follow">
@@ -44,15 +44,15 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.ocenit.online">
     <meta property="og:title" content="Ocenit.online - Profesionální ocenění nemovitosti zdarma | Odhad ceny online">
-    <meta property="og:description" content="Profesionální ocenění nemovitosti online ✓ Spolehlivý odhad tržní ceny vaší nemovitosti ZDARMA ✓ Výsledek do 5 minut ✓ Bez závazků a registrace">
-    <meta property="og:image" content="https://www.ocenit.online/images/og-image.jpg">
+    <meta property="og:description" content="Profesionální ocenění nemovitosti online ✓ Spolehlivý odhad tržní ceny vaší nemovitosti ZDARMA ✓ Výsledek do 2 minut ✓ Bez závazků a registrace">
+    <meta property="og:image" content="https://www.ocenit.online/Images/og-image.jpg">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.ocenit.online">
     <meta property="twitter:title" content="Ocenit.online - Profesionální ocenění nemovitosti zdarma | Odhad ceny online">
-    <meta property="twitter:description" content="Profesionální ocenění nemovitosti online ✓ Spolehlivý odhad tržní ceny vaší nemovitosti ZDARMA ✓ Výsledek do 5 minut ✓ Bez závazků a registrace">
-    <meta property="twitter:image" content="https://www.ocenit.online/images/og-image.jpg">
+    <meta property="twitter:description" content="Profesionální ocenění nemovitosti online ✓ Spolehlivý odhad tržní ceny vaší nemovitosti ZDARMA ✓ Výsledek do 2 minut ✓ Bez závazků a registrace">
+    <meta property="twitter:image" content="https://www.ocenit.online/Images/og-image.jpg">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.ocenit.online">
@@ -61,49 +61,131 @@
     <link rel="alternate" hreflang="cs" href="https://www.ocenit.online">
     
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="Images/favicon.png">
     <title>Ocenit.online - Profesionální ocenění nemovitosti zdarma | Odhad ceny online</title>
 
-    <!-- Strukturovaná data JSON-LD -->
+    <!-- Strukturovaná data JSON-LD — jednotný @graph: organizace, osoba, web, stránka, služba -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "RealEstateAgent",
-      "name": "Ocenit.online",
-      "description": "Profesionální ocenění nemovitosti online. Spolehlivý odhad tržní ceny vaší nemovitosti zdarma.",
-      "url": "https://www.ocenit.online",
-      "logo": "https://www.ocenit.online/images/logo.png",
-      "sameAs": [
-        "https://www.facebook.com/ocenit.online",
-        "https://www.instagram.com/ocenit.online"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "CZ"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Služby ocenění nemovitostí",
-        "itemListElement": [{
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Online ocenění nemovitosti",
-            "description": "Rychlý a spolehlivý odhad tržní ceny vaší nemovitosti"
+      "@graph": [
+        {
+          "@type": ["Organization", "RealEstateAgent"],
+          "@id": "https://www.ocenit.online/#organizace",
+          "name": "Ocenit.online",
+          "legalName": "PTF reality, s.r.o.",
+          "description": "Online orientační odhad tržní ceny nemovitosti v České republice. Službu provozuje realitní kancelář PTF reality, s.r.o.",
+          "url": "https://www.ocenit.online/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ocenit.online/Images/logo.png",
+            "width": 555,
+            "height": 555
           },
-          "price": "0",
-          "priceCurrency": "CZK"
-        }]
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "156"
-      }
+          "image": "https://www.ocenit.online/Images/og-image.jpg",
+          "email": "info@ocenit.online",
+          "telephone": "+420603834921",
+          "vatID": "CZ06684394",
+          "taxID": "CZ06684394",
+          "identifier": [
+            {
+              "@type": "PropertyValue",
+              "name": "IČO",
+              "value": "06684394"
+            }
+          ],
+          "foundingDate": "2017-12-14",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Dřevěná 99/3",
+            "addressLocality": "Plzeň",
+            "postalCode": "301 00",
+            "addressRegion": "Plzeňský kraj",
+            "addressCountry": "CZ"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Česká republika"
+          },
+          "founder": {
+            "@id": "https://www.ocenit.online/#david-choc"
+          },
+          "knowsAbout": [
+            "oceňování nemovitostí",
+            "odhad tržní ceny nemovitosti",
+            "prodej nemovitostí",
+            "realitní trh v České republice"
+          ],
+          "sameAs": [
+            "https://www.facebook.com/ocenit.online",
+            "https://www.instagram.com/ocenit.online",
+            "https://ares.gov.cz/ekonomicke-subjekty?ico=06684394"
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.ocenit.online/#david-choc",
+          "name": "David Choc",
+          "jobTitle": "Realitní makléř, odborný garant služby",
+          "url": "https://www.davidchoc.cz",
+          "worksFor": {
+            "@id": "https://www.ocenit.online/#organizace"
+          },
+          "knowsAbout": [
+            "oceňování nemovitostí",
+            "realitní trh v Plzni a v Praze"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ocenit.online/#web",
+          "name": "Ocenit.online",
+          "url": "https://www.ocenit.online/",
+          "inLanguage": "cs-CZ",
+          "publisher": {
+            "@id": "https://www.ocenit.online/#organizace"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ocenit.online/#stranka",
+          "url": "https://www.ocenit.online/",
+          "name": "Ocenit.online — orientační odhad ceny nemovitosti zdarma",
+          "isPartOf": {
+            "@id": "https://www.ocenit.online/#web"
+          },
+          "about": {
+            "@id": "https://www.ocenit.online/#organizace"
+          },
+          "primaryImageOfPage": "https://www.ocenit.online/Images/og-image.jpg",
+          "inLanguage": "cs-CZ"
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.ocenit.online/#sluzba",
+          "name": "Online odhad tržní ceny nemovitosti",
+          "serviceType": "Orientační odhad tržní ceny nemovitosti",
+          "description": "Orientační odhad tržní ceny bytu, domu nebo pozemku na základě údajů zadaných uživatelem a srovnatelných nabídek a prodejů v dané lokalitě.",
+          "disambiguatingDescription": "Výsledek je orientační odhad, nikoli znalecký posudek. Nenahrazuje ocenění pro účely hypotéky, dědického ani daňového řízení, pro která je nutná osobní prohlídka certifikovaným znalcem.",
+          "provider": {
+            "@id": "https://www.ocenit.online/#organizace"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Česká republika"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "CZK",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
     }
     </script>
     
@@ -197,45 +279,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- WebSite schema (pomáhá Google Sitelinks Search Box) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Ocenit.online",
-      "url": "https://www.ocenit.online/",
-      "inLanguage": "cs-CZ",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Ocenit.online",
-        "url": "https://www.ocenit.online/",
-        "logo": "https://www.ocenit.online/Images/logo.png"
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://www.ocenit.online/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-
-    <!-- Organization schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Ocenit.online",
-      "url": "https://www.ocenit.online/",
-      "logo": "https://www.ocenit.online/Images/logo.png",
-      "email": "info@ocenit.online",
-      "areaServed": "CZ",
-      "sameAs": [
-        "https://www.facebook.com/ocenit.online",
-        "https://www.instagram.com/ocenit.online"
-      ]
-    }
-    </script>
-
+    
+    
     <!-- BreadcrumbList schema -->
     <script type="application/ld+json">
     {
@@ -454,54 +499,77 @@
         </div>
     </section>
 
-<!-- Reference Section -->
-<section class="py-16 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-            <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-12">Co o nás říkají lidé, kteří už odhad využili?</h2>
+<!-- Kdo za tím stojí — entita, autorství, ověřitelnost -->
+<section class="py-16 bg-white" id="kdo-za-tim-stoji">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">Kdo za oceněním stojí</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Za Ocenit.online není anonymní kalkulačka. Provozuje ho zavedená realitní
+                kancelář a odborně za ním stojí konkrétní člověk.
+            </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Reference 1 -->
-            <div class="bg-gray-50 rounded-xl p-6 shadow-sm">
-                <div class="flex flex-col items-center">
-                    <div class="w-20 h-20 mb-4 rounded-full overflow-hidden bg-gray-200">
-                        <!-- Zde přidáte foto -->
-                        <img src="Images/Agent5.jpeg" alt="Jana K." class="w-full h-full object-cover">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Odborný garant -->
+            <div class="bg-gray-50 rounded-xl p-8">
+                <div class="flex items-center gap-4 mb-5">
+                    <!-- TODO: nahraď skutečnou portrétní fotkou (Images/david-choc.jpg) -->
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary text-xl font-bold shrink-0">
+                        DC
                     </div>
-                    <blockquote class="text-gray-600 text-center mb-4">
-                        „Díky Ocenit.online jsem zjistila reálnou hodnotu domu. Nakonec jsem prodala o 150 000 Kč dráž, než byl můj původní odhad!"
-                    </blockquote>
-                    <cite class="text-sm font-semibold text-gray-900">– Jana K., Praha</cite>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900">David Choc</h3>
+                        <p class="text-sm text-gray-500">Realitní makléř, odborný garant služby</p>
+                    </div>
                 </div>
+                <p class="text-gray-600 text-sm mb-4">
+                    Více než 30 let praxe na českém realitním trhu, působí v Plzni a v Praze.
+                    Metodiku odhadu nastavuje a průběžně kalibruje podle skutečně realizovaných
+                    prodejů, kterými sám prochází.
+                </p>
+                <a href="https://www.davidchoc.cz" rel="me noopener" target="_blank"
+                   class="text-primary text-sm font-medium hover:underline">
+                    Profil makléře →
+                </a>
             </div>
 
-            <!-- Reference 2 -->
-            <div class="bg-gray-50 rounded-xl p-6 shadow-sm">
-                <div class="flex flex-col items-center">
-                    <div class="w-20 h-20 mb-4 rounded-full overflow-hidden bg-gray-200">
-                        <!-- Zde přidáte foto -->
-                        <img src="Images/Agent3.jpeg" alt="Petr M." class="w-full h-full object-cover">
+            <!-- Provozovatel -->
+            <div class="bg-gray-50 rounded-xl p-8">
+                <div class="flex items-center gap-4 mb-5">
+                    <img src="Images/logo.png" alt="PTF reality, s.r.o." class="w-16 h-16 object-contain shrink-0">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900">PTF reality, s.r.o.</h3>
+                        <p class="text-sm text-gray-500">Provozovatel služby</p>
                     </div>
-                    <blockquote class="text-gray-600 text-center mb-4">
-                        „Skvěle zpracované, vše mi zabralo jen pár minut. Díky ocenění jsem získal lepší podmínky u banky."
-                    </blockquote>
-                    <cite class="text-sm font-semibold text-gray-900">– Petr M., Olomouc</cite>
                 </div>
+                <dl class="text-sm text-gray-600 space-y-1 mb-4">
+                    <div class="flex gap-2"><dt class="text-gray-500 w-20 shrink-0">IČO</dt><dd>06684394</dd></div>
+                    <div class="flex gap-2"><dt class="text-gray-500 w-20 shrink-0">DIČ</dt><dd>CZ06684394</dd></div>
+                    <div class="flex gap-2"><dt class="text-gray-500 w-20 shrink-0">Sídlo</dt><dd>Dřevěná 99/3, 301 00 Plzeň</dd></div>
+                    <div class="flex gap-2"><dt class="text-gray-500 w-20 shrink-0">Zapsáno</dt><dd>14. 12. 2017, Krajský soud v Plzni</dd></div>
+                </dl>
+                <a href="https://ares.gov.cz/ekonomicke-subjekty?ico=06684394" rel="noopener nofollow" target="_blank"
+                   class="text-primary text-sm font-medium hover:underline">
+                    Ověřit v obchodním rejstříku →
+                </a>
             </div>
+        </div>
 
-            <!-- Reference 3 -->
-            <div class="bg-gray-50 rounded-xl p-6 shadow-sm">
-                <div class="flex flex-col items-center">
-                    <div class="w-20 h-20 mb-4 rounded-full overflow-hidden bg-gray-200">
-                        <!-- Zde přidáte foto -->
-                        <img src="Images/Agent2.jpeg" alt="Marcela O." class="w-full h-full object-cover">
-                    </div>
-                    <blockquote class="text-gray-600 text-center mb-4">
-                        „Perfektní nástroj, data vypadají opravdu věrohodně. Využili jsme ho i pro dědické řízení."
-                    </blockquote>
-                    <cite class="text-sm font-semibold text-gray-900">– Marcela O., Brno</cite>
-                </div>
-            </div>
+        <!-- Poctivé vymezení toho, co odhad je a co není -->
+        <div class="mt-8 bg-blue-50 border border-blue-100 rounded-xl p-6">
+            <h3 class="font-semibold text-gray-900 mb-2">Co náš odhad je — a co není</h3>
+            <p class="text-sm text-gray-600">
+                Výsledek je <strong>orientační odhad tržní ceny</strong> vycházející z údajů,
+                které zadáte, a ze srovnatelných nabídek a prodejů ve vaší lokalitě.
+                <strong>Není to znalecký posudek</strong> a nenahrazuje ocenění pro hypotéku,
+                dědické ani daňové řízení — pro ty je nutná osobní prohlídka certifikovaným
+                znalcem. Přesnou cenu ovlivňuje technický stav, vady a právní zatížení,
+                které online nástroj nevidí.
+            </p>
+            <!-- TODO (David): doplnit ověřitelné číslo přesnosti, např.
+                 „Medián odchylky odhadu od realizované ceny byl v roce 2026 X % na vzorku Y ocenění."
+                 Jedno takové číslo zvedne důvěryhodnost víc než cokoli jiného na téhle stránce. -->
         </div>
     </div>
 </section>
@@ -779,12 +847,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 </p>
                 <!-- Sociální sítě -->
 <div class="flex space-x-4">
-    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+    <a href="https://www.facebook.com/ocenit.online" target="_blank" rel="noopener" class="text-gray-400 hover:text-white transition-colors">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
             <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
         </svg>
     </a>
-    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+    <a href="https://www.instagram.com/ocenit.online" target="_blank" rel="noopener" class="text-gray-400 hover:text-white transition-colors">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
         </svg>
@@ -856,7 +924,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <!-- Copyright -->
         <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; 2021 - 2025 Ocenit.online. Všechna práva vyhrazena.</p>
+            <p>&copy; 2021 - 2026 Ocenit.online. Všechna práva vyhrazena.</p>
         </div>
     </div>
 </footer>
